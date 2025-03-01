@@ -5,4 +5,4 @@ An object of type graphMagma should contain information on its underlying graph 
 'K' or 'N' to specify the type of the connected component as complete or null, respectively, and the number of the vertices in each component. For example, the graph $K_2\oplus N_3$ with direct sum components $K_2$ and $N_3$ is defined by the list [('K',2),('N',3)].
 Other attributes like generators (graphMagma.generators), incidence matrix (graphMagma.Inc), and the multiplication table (graphMagma.multiplication_table) are ready for use. These are mainly used in creation of a graphMagmaAlg object.
 
-In the class graphMagmaAlg, 
+In the class graphMagmaAlg, we provide several properties of a 2-value graph magma algebra. Among these are generators (GraphMagmaAlg.gens), a list of generators of local projective right (or left) ideals (GraphMagmaAlg.local_decomposition), the underlyin graph magma algebra as an instance of FreeAlgebraQuotient object (GraphMagmaAlg.magma_algebra), the undelying graph (GraphMagmaAlg.graph), simple left ideals of local projective components, simple right ideals of local projective components.
