@@ -1,4 +1,4 @@
-This project is developping for studying exmaples of a cetain kind of associative algebras, called graph magma algebras in litterature. These algberas are basically magma algebras, where the magma structure is based on a 
+This project is being developped for studying exmaples of a cetain kind of associative algebras, called graph magma algebras in litterature. These algberas are basically magma algebras, where the magma structure is based on a 
 simple directed graph. The file graphMagmaAlgebras.ipynb contains two classes: graphMagma for magmas induced by simple directed graphs and graphMagmaAlg for magma algebras. 
 
 An object of type graphMagma should contain information on its underlying graph stored in graphMagma.graph. The graph is given as a list of pairs, which represent the connected components of the graph. These pairs consist of a char as 
